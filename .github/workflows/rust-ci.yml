@@ -1,4 +1,6 @@
-on: [push, pull_request]
+# Experimental fork: automatic CI is disabled for now.
+# Trigger a manual validation run from the Actions tab ("Run workflow").
+on: workflow_dispatch
 
 name: Continuous integration
 
