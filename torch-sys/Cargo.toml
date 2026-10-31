@@ -1,6 +1,6 @@
 [package]
 name = "torch-sys"
-version = "0.26.0"
+version = "0.28.0"
 authors = ["Laurent Mazare <lmazare@gmail.com>"]
 edition = "2021"
 build = "build.rs"
@@ -29,4 +29,4 @@ doc-only = []
 python-extension = []
 
 [package.metadata.docs.rs]
-features = [ "doc-only" ]
+features = ["doc-only"]
