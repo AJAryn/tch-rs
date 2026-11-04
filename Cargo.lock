@@ -429,18 +429,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "cpython"
-version = "0.7.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "43b398a2c65baaf5892f10bb69b52508bf7a993380cc4ecd3785aaebb5c79389"
-dependencies = [
- "libc",
- "num-traits",
- "paste",
- "python3-sys",
-]
-
-[[package]]
 name = "crc32fast"
 version = "1.5.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1546,16 +1534,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "python3-sys"
-version = "0.7.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0f53ef6740367a09718d2cd21ba15b0d7972342a38e554736bcee7773e45c9f5"
-dependencies = [
- "libc",
- "regex",
-]
-
-[[package]]
 name = "qoi"
 version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2012,7 +1990,6 @@ version = "0.28.1"
 dependencies = [
  "anyhow",
  "clap",
- "cpython",
  "half",
  "image",
  "lazy_static",
