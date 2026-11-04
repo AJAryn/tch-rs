@@ -1,6 +1,6 @@
 [package]
 name = "tch-ext"
-version = "0.28.0"
+version = "0.28.1"
 authors = ["Laurent Mazare <lmazare@gmail.com>"]
 edition = "2021"
 build = "build.rs"
@@ -17,9 +17,9 @@ name = "tch_ext"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = { version = "0.24", features = ["extension-module"] }
-pyo3-tch = { path = "../../pyo3-tch", version = "0.28.0" }
-tch = { path = "../..", features = ["python-extension"], version = "0.28.0" }
+pyo3 = { version = "0.30.1", features = ["extension-module"] }
+pyo3-tch = { path = "../../pyo3-tch", version = "0.28.1" }
+tch = { path = "../..", features = ["python-extension"], version = "0.28.1" }
 torch-sys = { path = "../../torch-sys", features = [
     "python-extension",
-], version = "0.28.0" }
+], version = "0.28.1" }
